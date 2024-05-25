@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./navbar.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>CV Karunia Gemilang Medika</title>
+</head>
+
+<body <header>
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <h1><i class='bx bxs-buildings' style="font-size: 30px;"></i></h1>
+        </div>
+        <div class="checkbox-navbar">
+            <input type="checkbox" id="hamburger-checkbox">
+            <label for="hamburger-checkbox" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul style="list-style-type: none;">
+                <a href="#home">
+                    <li>Home</li>
+                </a>
+                <a href="#produk">
+                    <li>Products</li>
+                </a>
+                <a href="#daftar">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero" id="home">
+        <div class="container">
+            <div class="box-hero">
+                <div class="box">
+                    <h1>
+                        <span style="color: #ffffff; font-size: 30x;">Karunia</span><br />
+                        <span style="color: #8ad7eb; font-size: 30x; margin-left: 1rem;">Gemilang</span>
+                    </h1>
+                    <p>IT Consultant & Solutions</p>
+                </div>
+                <div class="box">
+                    <img src="/logo3.jpg" alt="logo" />
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+    <div class="title-profile">
+        <h1>Company Profile</h1>
+    </div>
+    <div class="profile">
+        <div class="image">
+            <img src="/iso.png" alt="Foto Artikel">
+        </div>
+        <div class="content">
+            <h1>Karunia Gemilang Medika</h1>
+            <h3>Solusi Terbaik Untuk Kebutuhan Anda</h3>
+            <p>Karunia gemilang medika dalam menjalankan bisnis didukung oleh sumber daya yang berkualitas dan
+                berpengalaman. Karena kami yakin hanya dengan sumber daya yang berkompeten dapat menghasilkan kualitas
+                layanan yang baik sesuai dengan harapan mitra bisnis kami.<br> <br>
+
+                    Tujuan kami adalah menjadi pilihan utama bagi mitra bisnis kami dengan memberikan kontribusi kepada
+                    setiap mitra bisnis kami melebihi dari yang mereka harapkan, melalui pelayanan istimewa dari kami
+                    secara professional dan integritas penuh.
+            </p>
+            <div class="profile-btn">
+                <div class="btn">
+                    <a href="#"><button>
+                            <h4>Profile Kami</h4><i class='bx bx-right-arrow-alt'
+                                style='color:#f7f4f4; font-size: 30px; position: relative; top: 0.1rem;'></i>
+                        </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="prod" id="produk">
+        <h2>Produk Kami</h2>
+        <div class="container">
+            <div class="box-batik">
+                <div class="box">
+                    <img src="/asset/buket9.jpg" alt="">
+                    <h3>Nama Produk</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button class="btn-popup"
+                        onclick="openBatikPopup('Bucket Wisuda','Harga Yang Terjangkau,Nyaman Di Genggam Menggunakan Bahan Yang Ramah Lingkungan', '/asset/buket9.jpg')">Details</button>
+                </div>
+                <div class="box">
+                    <img src="/asset/buket7.jpg" alt="">
+                    <h3>Nama Produk</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button class="btn-popup"
+                        onclick="openBatikPopup('Bucket Snack', 'Harga Yang Terjangkau,Menghadirkan Snack Yang Bervariasi Dan Mudah Disajikan Dalam Pertemuan', '/asset/buket7.jpg')">Details</button>
+                </div>
+                <div class="box">
+                    <img src="/asset/buket8.jpg" alt="">
+                    <h3>Nama Produk</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button class="btn-popup"
+                        onclick="openBatikPopup('Bucket Custom', 'Bucket custom Bucket yang dibuat dengan request pembeli','/asset/buket8.jpg')">Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
